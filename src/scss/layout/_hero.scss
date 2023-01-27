@@ -11,7 +11,7 @@
         justify-content: flex-end;
         
         &--title{
-            font-family: Roboto;
+            font-family: $font-title;
             font-weight: 700;
             color: white;
             font-size: 3rem;
@@ -23,13 +23,14 @@
             color: white;
             font-weight: 100;
             font-size: 1.6rem;
-            line-height: 1.9em;
+            line-height: 1.9rem;
         }
 
         &--button {
             background-color: white;
             background-image: url("../images/ico-scroll-down.svg");
-            background-size: cover;
+            background-repeat: no-repeat;
+            background-size: 2rem;
             background-position: center;
             width: 37.9px;
             height: 35.7px;

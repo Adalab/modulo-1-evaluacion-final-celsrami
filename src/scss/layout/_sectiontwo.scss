@@ -13,6 +13,7 @@
         font-size: 2rem;
         width: 20rem;
         margin: 2.9rem auto 0 auto;
+        font-family: $font-title;
     }
 
     &__article {
@@ -20,6 +21,7 @@
         margin: 1rem auto 0 auto;
     
         &--title{
+            font-family: $font-title;
             font-weight: bold;
             font-size: 1.8rem;
         }
@@ -43,14 +45,5 @@
        align-items: center;
        width: 18.4rem;
        height: 4.5rem;
-    }
-
-    &__arrow {
-        background-color: white;
-        border-radius: 50%;
-        width: 4.5rem;
-        height: 4.5rem;
-        
-
     }
 }

@@ -11,9 +11,9 @@
         }
 
     &__title {
-        font-family: RobotoSlab;
+        font-family: $font-title;
         font-size: 2.4rem;
-        font-weight: bold;
+        font-weight: 600;
         margin: 10px 0 10px 0;
         
     }
@@ -34,6 +34,8 @@
         border-radius: 22.5px;
         border: solid 3px $color-orange ;
         padding: 5px 30px;
+
+     
     }
 
 }
