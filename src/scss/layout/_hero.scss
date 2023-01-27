@@ -1,0 +1,40 @@
+.main{
+    &__hero { 
+        width: 100vw;
+        height: 100vh;
+        background-image: url("../images/cover.jpeg");
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        
+        &--title{
+            font-family: Roboto;
+            font-weight: 700;
+            color: white;
+            font-size: 2rem;
+            text-transform: uppercase;
+            line-height: 2.5rem;
+        }
+
+        &--text{
+            color: white;
+            font-weight: 100;
+            font-size: 1rem;
+            line-height: 1.2em;
+        }
+
+        &--button {
+            background-color: white;
+            background-image: url("../images/ico-scroll-down.svg");
+            background-size: cover;
+            background-position: center;
+            width: 37.9px;
+            height: 35.7px;
+            border-radius: 50%;
+            margin: 1rem auto 5rem auto;
+        }
+    }
+}
