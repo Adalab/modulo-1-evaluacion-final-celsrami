@@ -6,5 +6,10 @@
     justify-content: center;
     align-items: center;
     position: fixed;
+
+    @media all and (min-width: 768px) {
+        width: 4.6rem;
+         height: 4.4rem;
+    }
     
 }
