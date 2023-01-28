@@ -1,113 +1,99 @@
   .container {
-    background-color: antiquewhite;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
+      background-color: antiquewhite;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
   }
-  .arrow {
-     background-color: white;
-     background-image: url("../images/ico-arrow.svg");
-     background-repeat: no-repeat;
-     background-size: 2rem;
-     background-position: center;
-     border-radius: 50%;
-     width: 4.5rem;
-     height: 4.5rem; 
-     position: absolute;
-     transform: translateY(-20px);
-    }
 
-.footer {
-    height: 46.5rem;
-    background-color: $color-darkgrey;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center; 
-
-    @media all and (min-width: 768px) {
-            height: 24rem;
-            flex-direction: row-reverse;
-            justify-content: center;
-            align-items: flex-start;
-            
-
+        .arrow {
+            background-color: white;
+            background-image: url("../images/ico-arrow.svg");
+            background-repeat: no-repeat;
+            background-size: 2rem;
+            background-position: center;
+            border-radius: 50%;
+            width: 4.5rem;
+            height: 4.5rem;
+            height: 4.5rem;
+            height: 4.5rem;
+            position: absolute;
+            transform: translateY(-20px);
         }
     
-            &__section { display: flex;
-                        flex-direction: column;
-                        height: 27rem;
-                        padding-top: 65px;
-                        text-align: center;
+        .icon {
+            color: $color-orange;
+        }
+    
+        .li {
+            color: white;
+            font-size: 1.6rem;
+            font-weight: 100;
+            text-transform: uppercase;
+            line-height: 3rem;
+            text-align: center;
+            text-decoration: none;
+    
+        }
 
-                        @media all and (min-width: 768px) {
-            
-                            display: flex;
+    .footer {
+            height: 46.5rem;
+            background-color: $color-darkgrey;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+
+                    @media all and (min-width: 768px) {
+                            height: 24rem;
                             flex-direction: row;
-                            justify-content: space-between;
-                            padding-top: 5.6rem;
-                            height: 18rem;
-                            text-align: start;
-                            width: 38rem;
-                           
+                            justify-content: space-evenly;
+                            align-items: flex-start; }
+
+
+                        &__section{
+                            text-align: center;
+                            margin-top: 6.5rem;
+
+                            @media all and (min-width: 768px) {
+                                margin-top: 5.6rem;
+                                text-align: start;
+                                order: 2;
+                            }
                         }
 
-                        &--nav{
+                        &__sectiontwo {
+                            text-align: center;
                             margin-top: 3rem;
 
                             @media all and (min-width: 768px) {
-                                    margin-top: 0;
-                            
+                                    margin-top: 5.6rem;
+                                    text-align: start;
+                                    order: 3;
                                 }
                         }
 
-                            &--li{
-                                    color: white;
-                                    font-size: 1.6rem;
-                                    font-weight: 100;
-                                    text-transform: uppercase;
-                                    line-height: 3rem;
-                                    text-align: center;
-                                    text-decoration: none;
-                                    
 
-                                    @media all and (min-width: 768px) {
+                        &__sectionthree {
+                                margin-bottom: 6.8rem;
+                                text-align: center;
+                                padding-top: 3.2rem; 
+
+                                @media all and (min-width: 768px) {
+                                        margin-top: 5.6rem;
+                                        padding: 0;
                                         text-align: start;
-                                       
-                                        
+                                        order:1 ;
+                                        margin-left: 5rem;
+                                    
                                     }
+
+                                        &--text {
+                                                color: white;
+                                                font-size: 1.4rem;
+                                                line-height: 2.5rem; }
+
                             }
-                         }
-            
-            &__sectiontwo {
-                            margin-bottom: 6.8rem;
-                            text-align: center;
-                            padding-top: 3.2rem;
-                            
-                           
-
-                            @media all and (min-width: 768px) {
-                                padding-top: 5.8rem;
-                                padding-left: 8rem;
-                               
-                            }
-                            
-                            &--text {
-                            color: white;
-                            font-size: 1.4rem;
-                            line-height: 2.5rem; 
-
-                            @media all and (min-width: 768px) {
-                                text-align: start;
-                                width: 23rem;  
-                            }
-                        }
-                        }             
-}
 
 
-
-.icon {
-    color: $color-orange;
 }
