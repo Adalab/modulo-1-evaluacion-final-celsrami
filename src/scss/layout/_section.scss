@@ -8,6 +8,12 @@
         height: 33rem;
     }
 
+          @media all and (min-width: 1270px) {
+                height: 36rem;
+                margin: 5.8rem 13.6rem 0 27.5rem;
+                        
+         }
+
     &__title--small {
             color: $color-orange;
             font-size: 1.4rem;
@@ -43,12 +49,19 @@
         @media all and (min-width: 768px) {
                 font-size: 2rem;
             }
+
+                          @media all and (min-width: 1270px) {
+                            line-height: 3rem;
+                            max-width: 90rem;
+                            margin-bottom: 4rem;
+            
+                          }
     }
 
     &__button {
         color: $color-orange; 
         text-decoration: none;
-        font-size: 20px;
+        font-size: 2rem;
         font-weight: 500;
         border-radius: 22.5px;
         border: solid 3px $color-orange ;

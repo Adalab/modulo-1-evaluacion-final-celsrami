@@ -39,6 +39,7 @@
                         flex-direction: column;
                         height: 27rem;
                         padding-top: 65px;
+                        text-align: center;
 
                         @media all and (min-width: 768px) {
             
@@ -47,8 +48,9 @@
                             justify-content: space-between;
                             padding-top: 5.6rem;
                             height: 18rem;
+                            text-align: start;
+                            width: 38rem;
                            
-                        
                         }
 
                         &--nav{
@@ -67,11 +69,12 @@
                                     text-transform: uppercase;
                                     line-height: 3rem;
                                     text-align: center;
+                                    text-decoration: none;
                                     
 
                                     @media all and (min-width: 768px) {
                                         text-align: start;
-                                        width: 180px;
+                                       
                                         
                                     }
                             }
@@ -80,13 +83,13 @@
             &__sectiontwo {
                             margin-bottom: 6.8rem;
                             text-align: center;
-                            padding-top: 32px;
+                            padding-top: 3.2rem;
                             
                            
 
                             @media all and (min-width: 768px) {
                                 padding-top: 5.8rem;
-                                padding-left: 12rem;
+                                padding-left: 8rem;
                                
                             }
                             
@@ -97,7 +100,7 @@
 
                             @media all and (min-width: 768px) {
                                 text-align: start;
-                                width: 180px;  
+                                width: 23rem;  
                             }
                         }
                         }             
