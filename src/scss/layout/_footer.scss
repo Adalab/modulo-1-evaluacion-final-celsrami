@@ -1,5 +1,4 @@
   .container {
-      background-color: antiquewhite;
       position: relative;
       display: flex;
       justify-content: center;
@@ -19,8 +18,33 @@
             height: 4.5rem;
             position: absolute;
             transform: translateY(-20px);
+
+            &:after {
+                    position: absolute;
+                    content: "";
+                    top: 0;
+                    left: 0;
+                    width: 0;
+                    height: 100%;
+                    background: $color-orange;
+                    opacity: 0.5;
+                    border-radius: 50%;
+                    transition: all .35s;
+                }
+            
+                &:hover {
+                    color: $color-orange;
+                }
+            
+                &:hover:after {
+                    width: 100%;
+                }
         }
-    
+
+       
+               
+
+
         .icon {
             color: $color-orange;
         }

@@ -66,6 +66,13 @@
         border-radius: 22.5px;
         border: solid 3px $color-orange ;
         padding: 5px 30px;
+        background-color: white;
+        transition: background-color 0.9s;
+
+            &:hover {
+                background-color: $color-orange;
+                color: white;
+            }
     }
 
 }
